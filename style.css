@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Young+Serif:wght@400;700&display=swap');
+/* 2. Global Reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* 3. Main Recipe Card Layout Box */
+.recipe-card {
+    background-color: hsl(0, 0%, 100%);
+    max-width: 730px;
+    width: 100%;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+}
+
+/* 4. The Image Block Styling */
+.recipe-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+/* 5. Headings and Paragraph Typography */
+h1 {
+    font-family: 'Young Serif', serif;
+    color: hsl(24, 5%, 18%);
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin-bottom: 24px;
+}
+
+p {
+    color: hsl(30, 8%, 35%);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 32px;
+}
+
